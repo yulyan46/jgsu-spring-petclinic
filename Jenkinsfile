@@ -12,7 +12,7 @@ pipeline {
             steps {
                 // Run Maven on a Unix agent.
                 //sh "./mvnw clean package"
-                sh true
+                sh 'true'
             }
 
             post {
